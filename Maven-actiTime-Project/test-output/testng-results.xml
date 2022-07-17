@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="12" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-12T15:54:05 IST" name="Suite1" finished-at="2022-07-12T15:57:15 IST" duration-ms="190084">
+    <groups>
+    </groups>
+    <test started-at="2022-07-12T15:54:05 IST" name="ChromeBrowser" finished-at="2022-07-12T15:55:07 IST" duration-ms="62630">
+      <class name="tests.TestClassNG">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.TestClassNG@245b4bdc]" started-at="2022-07-12T15:54:10 IST" name="launchBrowser" finished-at="2022-07-12T15:54:12 IST" duration-ms="1844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:tests.TestClassNG@245b4bdc]" started-at="2022-07-12T15:54:12 IST" name="createObject" finished-at="2022-07-12T15:54:12 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="testLoginPage()[pri:0, instance:tests.TestClassNG@245b4bdc]" started-at="2022-07-12T15:54:12 IST" name="testLoginPage" finished-at="2022-07-12T15:54:24 IST" duration-ms="12144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method signature="testTaskList()[pri:0, instance:tests.TestClassNG@245b4bdc]" started-at="2022-07-12T15:54:24 IST" name="testTaskList" finished-at="2022-07-12T15:54:34 IST" duration-ms="9588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTaskList -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:tests.TestClassNG@245b4bdc]" started-at="2022-07-12T15:54:34 IST" name="logOutApplication" finished-at="2022-07-12T15:54:37 IST" duration-ms="3176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTaskList status=SUCCESS method=TestClassNG.testTaskList()[pri:0, instance:tests.TestClassNG@245b4bdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="testLoginPage()[pri:0, instance:tests.TestClassNG@245b4bdc]" started-at="2022-07-12T15:54:37 IST" name="testLoginPage" finished-at="2022-07-12T15:54:41 IST" duration-ms="3422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method signature="testUserList()[pri:0, instance:tests.TestClassNG@245b4bdc]" started-at="2022-07-12T15:54:41 IST" name="testUserList" finished-at="2022-07-12T15:54:46 IST" duration-ms="5570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserList -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:tests.TestClassNG@245b4bdc]" started-at="2022-07-12T15:54:46 IST" name="logOutApplication" finished-at="2022-07-12T15:54:50 IST" duration-ms="3501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserList status=SUCCESS method=TestClassNG.testUserList()[pri:0, instance:tests.TestClassNG@245b4bdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="testLoginPage()[pri:0, instance:tests.TestClassNG@245b4bdc]" started-at="2022-07-12T15:54:50 IST" name="testLoginPage" finished-at="2022-07-12T15:54:53 IST" duration-ms="3004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method signature="testReportDashBoard()[pri:1, instance:tests.TestClassNG@245b4bdc]" started-at="2022-07-12T15:54:53 IST" name="testReportDashBoard" finished-at="2022-07-12T15:55:03 IST" duration-ms="10011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReportDashBoard -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:tests.TestClassNG@245b4bdc]" started-at="2022-07-12T15:55:03 IST" name="logOutApplication" finished-at="2022-07-12T15:55:06 IST" duration-ms="3518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testReportDashBoard status=SUCCESS method=TestClassNG.testReportDashBoard()[pri:1, instance:tests.TestClassNG@245b4bdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="deleteObject()[pri:0, instance:tests.TestClassNG@245b4bdc]" started-at="2022-07-12T15:55:06 IST" name="deleteObject" finished-at="2022-07-12T15:55:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteObject -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:tests.TestClassNG@245b4bdc]" started-at="2022-07-12T15:55:07 IST" name="closeApplication" finished-at="2022-07-12T15:55:07 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- tests.TestClassNG -->
+      <class name="tests.ReportDashBoardClassNG">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:tests.ReportDashBoardClassNG@2d7275fc]" started-at="2022-07-12T15:54:05 IST" name="launchTheBrowser" finished-at="2022-07-12T15:54:10 IST" duration-ms="5412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:tests.ReportDashBoardClassNG@2d7275fc]" started-at="2022-07-12T15:54:12 IST" name="createObject" finished-at="2022-07-12T15:54:12 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="logInTheApplication()[pri:0, instance:tests.ReportDashBoardClassNG@2d7275fc]" started-at="2022-07-12T15:54:12 IST" name="logInTheApplication" finished-at="2022-07-12T15:54:24 IST" duration-ms="12132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTheApplication -->
+        <test-method signature="verifyUrlOfReport()[pri:0, instance:tests.ReportDashBoardClassNG@2d7275fc]" started-at="2022-07-12T15:54:24 IST" name="verifyUrlOfReport" finished-at="2022-07-12T15:54:36 IST" duration-ms="11824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrlOfReport -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.ReportDashBoardClassNG@2d7275fc]" started-at="2022-07-12T15:54:36 IST" name="logOutFromApplication" finished-at="2022-07-12T15:54:38 IST" duration-ms="1848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUrlOfReport status=SUCCESS method=ReportDashBoardClassNG.verifyUrlOfReport()[pri:0, instance:tests.ReportDashBoardClassNG@2d7275fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="logInTheApplication()[pri:0, instance:tests.ReportDashBoardClassNG@2d7275fc]" started-at="2022-07-12T15:54:38 IST" name="logInTheApplication" finished-at="2022-07-12T15:54:41 IST" duration-ms="3390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTheApplication -->
+        <test-method signature="clickONReportIcon()[pri:1, instance:tests.ReportDashBoardClassNG@2d7275fc]" started-at="2022-07-12T15:54:41 IST" name="clickONReportIcon" finished-at="2022-07-12T15:55:01 IST" duration-ms="19119" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 2 out of bounds for length 2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+at java.base/java.util.Objects.checkIndex(Objects.java:359)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at pom.HtmlTableOfPerformancePage.generateTheTableValue(HtmlTableOfPerformancePage.java:37)
+at tests.ReportDashBoardClassNG.clickONReportIcon(ReportDashBoardClassNG.java:125)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickONReportIcon -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.ReportDashBoardClassNG@2d7275fc]" started-at="2022-07-12T15:55:01 IST" name="logOutFromApplication" finished-at="2022-07-12T15:55:03 IST" duration-ms="2324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickONReportIcon status=FAILURE method=ReportDashBoardClassNG.clickONReportIcon()[pri:1, instance:tests.ReportDashBoardClassNG@2d7275fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="deleteObject()[pri:0, instance:tests.ReportDashBoardClassNG@2d7275fc]" started-at="2022-07-12T15:55:03 IST" name="deleteObject" finished-at="2022-07-12T15:55:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteObject -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:tests.ReportDashBoardClassNG@2d7275fc]" started-at="2022-07-12T15:55:06 IST" name="closeTheBrowser" finished-at="2022-07-12T15:55:07 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- tests.ReportDashBoardClassNG -->
+    </test> <!-- ChromeBrowser -->
+    <test started-at="2022-07-12T15:55:08 IST" name="OperaBrowser" finished-at="2022-07-12T15:56:13 IST" duration-ms="65943">
+      <class name="tests.TestClassNG">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.TestClassNG@31304f14]" started-at="2022-07-12T15:55:13 IST" name="launchBrowser" finished-at="2022-07-12T15:55:17 IST" duration-ms="3130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:tests.TestClassNG@31304f14]" started-at="2022-07-12T15:55:17 IST" name="createObject" finished-at="2022-07-12T15:55:17 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="testLoginPage()[pri:0, instance:tests.TestClassNG@31304f14]" started-at="2022-07-12T15:55:17 IST" name="testLoginPage" finished-at="2022-07-12T15:55:27 IST" duration-ms="10479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method signature="testTaskList()[pri:0, instance:tests.TestClassNG@31304f14]" started-at="2022-07-12T15:55:27 IST" name="testTaskList" finished-at="2022-07-12T15:55:36 IST" duration-ms="8913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTaskList -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:tests.TestClassNG@31304f14]" started-at="2022-07-12T15:55:36 IST" name="logOutApplication" finished-at="2022-07-12T15:55:39 IST" duration-ms="3393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTaskList status=SUCCESS method=TestClassNG.testTaskList()[pri:0, instance:tests.TestClassNG@31304f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="testLoginPage()[pri:0, instance:tests.TestClassNG@31304f14]" started-at="2022-07-12T15:55:39 IST" name="testLoginPage" finished-at="2022-07-12T15:55:44 IST" duration-ms="4679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method signature="testUserList()[pri:0, instance:tests.TestClassNG@31304f14]" started-at="2022-07-12T15:55:44 IST" name="testUserList" finished-at="2022-07-12T15:55:50 IST" duration-ms="6092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserList -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:tests.TestClassNG@31304f14]" started-at="2022-07-12T15:55:50 IST" name="logOutApplication" finished-at="2022-07-12T15:55:54 IST" duration-ms="3636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserList status=SUCCESS method=TestClassNG.testUserList()[pri:0, instance:tests.TestClassNG@31304f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="testLoginPage()[pri:0, instance:tests.TestClassNG@31304f14]" started-at="2022-07-12T15:55:54 IST" name="testLoginPage" finished-at="2022-07-12T15:55:58 IST" duration-ms="3850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method signature="testReportDashBoard()[pri:1, instance:tests.TestClassNG@31304f14]" started-at="2022-07-12T15:55:58 IST" name="testReportDashBoard" finished-at="2022-07-12T15:56:09 IST" duration-ms="11118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReportDashBoard -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:tests.TestClassNG@31304f14]" started-at="2022-07-12T15:56:09 IST" name="logOutApplication" finished-at="2022-07-12T15:56:12 IST" duration-ms="3532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testReportDashBoard status=SUCCESS method=TestClassNG.testReportDashBoard()[pri:1, instance:tests.TestClassNG@31304f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="deleteObject()[pri:0, instance:tests.TestClassNG@31304f14]" started-at="2022-07-12T15:56:12 IST" name="deleteObject" finished-at="2022-07-12T15:56:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteObject -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:tests.TestClassNG@31304f14]" started-at="2022-07-12T15:56:13 IST" name="closeApplication" finished-at="2022-07-12T15:56:13 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- tests.TestClassNG -->
+      <class name="tests.ReportDashBoardClassNG">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:tests.ReportDashBoardClassNG@34a3d150]" started-at="2022-07-12T15:55:08 IST" name="launchTheBrowser" finished-at="2022-07-12T15:55:13 IST" duration-ms="5904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:tests.ReportDashBoardClassNG@34a3d150]" started-at="2022-07-12T15:55:17 IST" name="createObject" finished-at="2022-07-12T15:55:17 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="logInTheApplication()[pri:0, instance:tests.ReportDashBoardClassNG@34a3d150]" started-at="2022-07-12T15:55:17 IST" name="logInTheApplication" finished-at="2022-07-12T15:55:27 IST" duration-ms="10682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTheApplication -->
+        <test-method signature="verifyUrlOfReport()[pri:0, instance:tests.ReportDashBoardClassNG@34a3d150]" started-at="2022-07-12T15:55:27 IST" name="verifyUrlOfReport" finished-at="2022-07-12T15:55:40 IST" duration-ms="12624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrlOfReport -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.ReportDashBoardClassNG@34a3d150]" started-at="2022-07-12T15:55:40 IST" name="logOutFromApplication" finished-at="2022-07-12T15:55:42 IST" duration-ms="2364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUrlOfReport status=SUCCESS method=ReportDashBoardClassNG.verifyUrlOfReport()[pri:0, instance:tests.ReportDashBoardClassNG@34a3d150] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="logInTheApplication()[pri:0, instance:tests.ReportDashBoardClassNG@34a3d150]" started-at="2022-07-12T15:55:42 IST" name="logInTheApplication" finished-at="2022-07-12T15:55:46 IST" duration-ms="3624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTheApplication -->
+        <test-method signature="clickONReportIcon()[pri:1, instance:tests.ReportDashBoardClassNG@34a3d150]" started-at="2022-07-12T15:55:46 IST" name="clickONReportIcon" finished-at="2022-07-12T15:56:06 IST" duration-ms="19884" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 2 out of bounds for length 2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+at java.base/java.util.Objects.checkIndex(Objects.java:359)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at pom.HtmlTableOfPerformancePage.generateTheTableValue(HtmlTableOfPerformancePage.java:37)
+at tests.ReportDashBoardClassNG.clickONReportIcon(ReportDashBoardClassNG.java:125)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickONReportIcon -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.ReportDashBoardClassNG@34a3d150]" started-at="2022-07-12T15:56:06 IST" name="logOutFromApplication" finished-at="2022-07-12T15:56:07 IST" duration-ms="1550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickONReportIcon status=FAILURE method=ReportDashBoardClassNG.clickONReportIcon()[pri:1, instance:tests.ReportDashBoardClassNG@34a3d150] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="deleteObject()[pri:0, instance:tests.ReportDashBoardClassNG@34a3d150]" started-at="2022-07-12T15:56:07 IST" name="deleteObject" finished-at="2022-07-12T15:56:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteObject -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:tests.ReportDashBoardClassNG@34a3d150]" started-at="2022-07-12T15:56:12 IST" name="closeTheBrowser" finished-at="2022-07-12T15:56:13 IST" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- tests.ReportDashBoardClassNG -->
+    </test> <!-- OperaBrowser -->
+    <test started-at="2022-07-12T15:56:13 IST" name="EdgeBrowser" finished-at="2022-07-12T15:57:15 IST" duration-ms="61434">
+      <class name="tests.TestClassNG">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.TestClassNG@128d2484]" started-at="2022-07-12T15:56:16 IST" name="launchBrowser" finished-at="2022-07-12T15:56:19 IST" duration-ms="3406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:tests.TestClassNG@128d2484]" started-at="2022-07-12T15:56:19 IST" name="createObject" finished-at="2022-07-12T15:56:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="testLoginPage()[pri:0, instance:tests.TestClassNG@128d2484]" started-at="2022-07-12T15:56:19 IST" name="testLoginPage" finished-at="2022-07-12T15:56:31 IST" duration-ms="11244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method signature="testTaskList()[pri:0, instance:tests.TestClassNG@128d2484]" started-at="2022-07-12T15:56:31 IST" name="testTaskList" finished-at="2022-07-12T15:56:39 IST" duration-ms="8598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTaskList -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:tests.TestClassNG@128d2484]" started-at="2022-07-12T15:56:39 IST" name="logOutApplication" finished-at="2022-07-12T15:56:43 IST" duration-ms="3435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTaskList status=SUCCESS method=TestClassNG.testTaskList()[pri:0, instance:tests.TestClassNG@128d2484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="testLoginPage()[pri:0, instance:tests.TestClassNG@128d2484]" started-at="2022-07-12T15:56:43 IST" name="testLoginPage" finished-at="2022-07-12T15:56:46 IST" duration-ms="3399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method signature="testUserList()[pri:0, instance:tests.TestClassNG@128d2484]" started-at="2022-07-12T15:56:46 IST" name="testUserList" finished-at="2022-07-12T15:56:54 IST" duration-ms="7526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserList -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:tests.TestClassNG@128d2484]" started-at="2022-07-12T15:56:54 IST" name="logOutApplication" finished-at="2022-07-12T15:56:57 IST" duration-ms="3393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserList status=SUCCESS method=TestClassNG.testUserList()[pri:0, instance:tests.TestClassNG@128d2484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="testLoginPage()[pri:0, instance:tests.TestClassNG@128d2484]" started-at="2022-07-12T15:56:57 IST" name="testLoginPage" finished-at="2022-07-12T15:57:00 IST" duration-ms="3037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method signature="testReportDashBoard()[pri:1, instance:tests.TestClassNG@128d2484]" started-at="2022-07-12T15:57:00 IST" name="testReportDashBoard" finished-at="2022-07-12T15:57:11 IST" duration-ms="10640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReportDashBoard -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:tests.TestClassNG@128d2484]" started-at="2022-07-12T15:57:11 IST" name="logOutApplication" finished-at="2022-07-12T15:57:14 IST" duration-ms="3469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testReportDashBoard status=SUCCESS method=TestClassNG.testReportDashBoard()[pri:1, instance:tests.TestClassNG@128d2484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="deleteObject()[pri:0, instance:tests.TestClassNG@128d2484]" started-at="2022-07-12T15:57:14 IST" name="deleteObject" finished-at="2022-07-12T15:57:14 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteObject -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:tests.TestClassNG@128d2484]" started-at="2022-07-12T15:57:15 IST" name="closeApplication" finished-at="2022-07-12T15:57:15 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- tests.TestClassNG -->
+      <class name="tests.ReportDashBoardClassNG">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:tests.ReportDashBoardClassNG@7cc0cdad]" started-at="2022-07-12T15:56:13 IST" name="launchTheBrowser" finished-at="2022-07-12T15:56:16 IST" duration-ms="2439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:tests.ReportDashBoardClassNG@7cc0cdad]" started-at="2022-07-12T15:56:19 IST" name="createObject" finished-at="2022-07-12T15:56:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="logInTheApplication()[pri:0, instance:tests.ReportDashBoardClassNG@7cc0cdad]" started-at="2022-07-12T15:56:19 IST" name="logInTheApplication" finished-at="2022-07-12T15:56:31 IST" duration-ms="11302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTheApplication -->
+        <test-method signature="verifyUrlOfReport()[pri:0, instance:tests.ReportDashBoardClassNG@7cc0cdad]" started-at="2022-07-12T15:56:31 IST" name="verifyUrlOfReport" finished-at="2022-07-12T15:56:42 IST" duration-ms="10943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrlOfReport -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.ReportDashBoardClassNG@7cc0cdad]" started-at="2022-07-12T15:56:42 IST" name="logOutFromApplication" finished-at="2022-07-12T15:56:43 IST" duration-ms="1798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUrlOfReport status=SUCCESS method=ReportDashBoardClassNG.verifyUrlOfReport()[pri:0, instance:tests.ReportDashBoardClassNG@7cc0cdad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="logInTheApplication()[pri:0, instance:tests.ReportDashBoardClassNG@7cc0cdad]" started-at="2022-07-12T15:56:43 IST" name="logInTheApplication" finished-at="2022-07-12T15:56:47 IST" duration-ms="3316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTheApplication -->
+        <test-method signature="clickONReportIcon()[pri:1, instance:tests.ReportDashBoardClassNG@7cc0cdad]" started-at="2022-07-12T15:56:47 IST" name="clickONReportIcon" finished-at="2022-07-12T15:57:07 IST" duration-ms="20150" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 2 out of bounds for length 2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+at java.base/java.util.Objects.checkIndex(Objects.java:359)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at pom.HtmlTableOfPerformancePage.generateTheTableValue(HtmlTableOfPerformancePage.java:37)
+at tests.ReportDashBoardClassNG.clickONReportIcon(ReportDashBoardClassNG.java:125)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickONReportIcon -->
+        <test-method is-config="true" signature="logOutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.ReportDashBoardClassNG@7cc0cdad]" started-at="2022-07-12T15:57:07 IST" name="logOutFromApplication" finished-at="2022-07-12T15:57:09 IST" duration-ms="1675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickONReportIcon status=FAILURE method=ReportDashBoardClassNG.clickONReportIcon()[pri:1, instance:tests.ReportDashBoardClassNG@7cc0cdad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="deleteObject()[pri:0, instance:tests.ReportDashBoardClassNG@7cc0cdad]" started-at="2022-07-12T15:57:09 IST" name="deleteObject" finished-at="2022-07-12T15:57:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteObject -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:tests.ReportDashBoardClassNG@7cc0cdad]" started-at="2022-07-12T15:57:14 IST" name="closeTheBrowser" finished-at="2022-07-12T15:57:15 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- tests.ReportDashBoardClassNG -->
+    </test> <!-- EdgeBrowser -->
+  </suite> <!-- Suite1 -->
+</testng-results>

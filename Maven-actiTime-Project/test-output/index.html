@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite1" class="navigator-link">
+              <span class="suite-name border-failed">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite1" class="navigator-link ">
+                    <span>C:\Users\Swaraj\eclipse-workspace\Maven-actiTime-Project\ActiTime.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite1" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite1" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite1" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite1" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite1" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite1" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 3 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods failed suite-Suite1"> (hide)</a> <!-- hide-methods failed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods failed suite-Suite1"> (show)</a> <!-- show-methods failed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite1">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="tests.ReportDashBoardClassNG" class="method navigator-link" hash-for-method="clickONReportIcon">clickONReportIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="tests.ReportDashBoardClassNG" class="method navigator-link" hash-for-method="clickONReportIcon">clickONReportIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="tests.ReportDashBoardClassNG" class="method navigator-link" hash-for-method="clickONReportIcon">clickONReportIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite1">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="tests.TestClassNG" class="method navigator-link" hash-for-method="testReportDashBoard">testReportDashBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="tests.TestClassNG" class="method navigator-link" hash-for-method="testReportDashBoard">testReportDashBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="tests.TestClassNG" class="method navigator-link" hash-for-method="testReportDashBoard">testReportDashBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="tests.TestClassNG" class="method navigator-link" hash-for-method="testTaskList">testTaskList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="tests.TestClassNG" class="method navigator-link" hash-for-method="testTaskList">testTaskList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="tests.TestClassNG" class="method navigator-link" hash-for-method="testTaskList">testTaskList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="tests.TestClassNG" class="method navigator-link" hash-for-method="testUserList">testUserList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="tests.TestClassNG" class="method navigator-link" hash-for-method="testUserList">testUserList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="tests.TestClassNG" class="method navigator-link" hash-for-method="testUserList">testUserList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="tests.ReportDashBoardClassNG" class="method navigator-link" hash-for-method="verifyUrlOfReport">verifyUrlOfReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="tests.ReportDashBoardClassNG" class="method navigator-link" hash-for-method="verifyUrlOfReport">verifyUrlOfReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="tests.ReportDashBoardClassNG" class="method navigator-link" hash-for-method="verifyUrlOfReport">verifyUrlOfReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.ReportDashBoardClassNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickONReportIcon">
+                  </a> <!-- clickONReportIcon -->
+                  <span class="method-name">clickONReportIcon</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at pom.HtmlTableOfPerformancePage.generateTheTableValue(HtmlTableOfPerformancePage.java:37)
+	at tests.ReportDashBoardClassNG.clickONReportIcon(ReportDashBoardClassNG.java:125)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickONReportIcon">
+                  </a> <!-- clickONReportIcon -->
+                  <span class="method-name">clickONReportIcon</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at pom.HtmlTableOfPerformancePage.generateTheTableValue(HtmlTableOfPerformancePage.java:37)
+	at tests.ReportDashBoardClassNG.clickONReportIcon(ReportDashBoardClassNG.java:125)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickONReportIcon">
+                  </a> <!-- clickONReportIcon -->
+                  <span class="method-name">clickONReportIcon</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at pom.HtmlTableOfPerformancePage.generateTheTableValue(HtmlTableOfPerformancePage.java:37)
+	at tests.ReportDashBoardClassNG.clickONReportIcon(ReportDashBoardClassNG.java:125)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-failed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TestClassNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReportDashBoard">
+                  </a> <!-- testReportDashBoard -->
+                  <span class="method-name">testReportDashBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReportDashBoard">
+                  </a> <!-- testReportDashBoard -->
+                  <span class="method-name">testReportDashBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReportDashBoard">
+                  </a> <!-- testReportDashBoard -->
+                  <span class="method-name">testReportDashBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTaskList">
+                  </a> <!-- testTaskList -->
+                  <span class="method-name">testTaskList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTaskList">
+                  </a> <!-- testTaskList -->
+                  <span class="method-name">testTaskList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTaskList">
+                  </a> <!-- testTaskList -->
+                  <span class="method-name">testTaskList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserList">
+                  </a> <!-- testUserList -->
+                  <span class="method-name">testUserList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserList">
+                  </a> <!-- testUserList -->
+                  <span class="method-name">testUserList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserList">
+                  </a> <!-- testUserList -->
+                  <span class="method-name">testUserList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ReportDashBoardClassNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUrlOfReport">
+                  </a> <!-- verifyUrlOfReport -->
+                  <span class="method-name">verifyUrlOfReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUrlOfReport">
+                  </a> <!-- verifyUrlOfReport -->
+                  <span class="method-name">verifyUrlOfReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUrlOfReport">
+                  </a> <!-- verifyUrlOfReport -->
+                  <span class="method-name">verifyUrlOfReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Swaraj\eclipse-workspace\Maven-actiTime-Project\ActiTime.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Suite1&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;extendReport.ExtentTestNGIReporterListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;ChromeBrowser&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.TestClassNG&quot;/&gt;
+      &lt;class name=&quot;tests.ReportDashBoardClassNG&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeBrowser --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;OperaBrowser&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Opera&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.TestClassNG&quot;/&gt;
+      &lt;class name=&quot;tests.ReportDashBoardClassNG&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OperaBrowser --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;EdgeBrowser&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.TestClassNG&quot;/&gt;
+      &lt;class name=&quot;tests.ReportDashBoardClassNG&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeBrowser --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeBrowser (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">OperaBrowser (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">EdgeBrowser (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'clickONReportIcon')
+data.setCell(0, 2, 'tests.ReportDashBoardClassNG')
+data.setCell(0, 3, 20150);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickONReportIcon')
+data.setCell(1, 2, 'tests.ReportDashBoardClassNG')
+data.setCell(1, 3, 19884);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickONReportIcon')
+data.setCell(2, 2, 'tests.ReportDashBoardClassNG')
+data.setCell(2, 3, 19119);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyUrlOfReport')
+data.setCell(3, 2, 'tests.ReportDashBoardClassNG')
+data.setCell(3, 3, 12624);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyUrlOfReport')
+data.setCell(4, 2, 'tests.ReportDashBoardClassNG')
+data.setCell(4, 3, 11824);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testReportDashBoard')
+data.setCell(5, 2, 'tests.TestClassNG')
+data.setCell(5, 3, 11118);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyUrlOfReport')
+data.setCell(6, 2, 'tests.ReportDashBoardClassNG')
+data.setCell(6, 3, 10943);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testReportDashBoard')
+data.setCell(7, 2, 'tests.TestClassNG')
+data.setCell(7, 3, 10640);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testReportDashBoard')
+data.setCell(8, 2, 'tests.TestClassNG')
+data.setCell(8, 3, 10011);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testTaskList')
+data.setCell(9, 2, 'tests.TestClassNG')
+data.setCell(9, 3, 9588);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testTaskList')
+data.setCell(10, 2, 'tests.TestClassNG')
+data.setCell(10, 3, 8913);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testTaskList')
+data.setCell(11, 2, 'tests.TestClassNG')
+data.setCell(11, 3, 8598);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testUserList')
+data.setCell(12, 2, 'tests.TestClassNG')
+data.setCell(12, 3, 7526);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testUserList')
+data.setCell(13, 2, 'tests.TestClassNG')
+data.setCell(13, 3, 6092);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testUserList')
+data.setCell(14, 2, 'tests.TestClassNG')
+data.setCell(14, 3, 5570);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchTheBrowser(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser(Chrome)</span>
+                <span class="method-start">5413 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createObject</span>
+                <span class="method-start">7306 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createObject</span>
+                <span class="method-start">7307 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">logInTheApplication</span>
+                <span class="method-start">7438 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testLoginPage</span>
+                <span class="method-start">7438 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyUrlOfReport</span>
+                <span class="method-start">19571 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTaskList</span>
+                <span class="method-start">19582 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutApplication([TestResult name=testTaskList status=SUCCESS method=TestClassNG.testTaskList()[pri:0, instance:tests...)</span>
+                <span class="method-start">29174 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutFromApplication([TestResult name=verifyUrlOfReport status=SUCCESS method=ReportDashBoardClassNG.verifyUrlOfReport()[...)</span>
+                <span class="method-start">31398 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testLoginPage</span>
+                <span class="method-start">32470 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">logInTheApplication</span>
+                <span class="method-start">33247 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testUserList</span>
+                <span class="method-start">35892 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickONReportIcon</span>
+                <span class="method-start">36637 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutApplication([TestResult name=testUserList status=SUCCESS method=TestClassNG.testUserList()[pri:0, instance:tests...)</span>
+                <span class="method-start">41464 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testLoginPage</span>
+                <span class="method-start">44967 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testReportDashBoard</span>
+                <span class="method-start">47971 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutFromApplication([TestResult name=clickONReportIcon status=FAILURE method=ReportDashBoardClassNG.clickONReportIcon()[...)</span>
+                <span class="method-start">55764 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutApplication([TestResult name=testReportDashBoard status=SUCCESS method=TestClassNG.testReportDashBoard()[pri:1, ...)</span>
+                <span class="method-start">57983 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">deleteObject</span>
+                <span class="method-start">58092 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">deleteObject</span>
+                <span class="method-start">61502 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeTheBrowser</span>
+                <span class="method-start">61504 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">62059 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchTheBrowser(Opera)</span>
+                <span class="method-start">62684 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser(Opera)</span>
+                <span class="method-start">68589 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">createObject</span>
+                <span class="method-start">71788 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">testLoginPage</span>
+                <span class="method-start">71793 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createObject</span>
+                <span class="method-start">71800 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">logInTheApplication</span>
+                <span class="method-start">71804 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTaskList</span>
+                <span class="method-start">82272 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyUrlOfReport</span>
+                <span class="method-start">82486 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutApplication([TestResult name=testTaskList status=SUCCESS method=TestClassNG.testTaskList()[pri:0, instance:tests...)</span>
+                <span class="method-start">91189 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testLoginPage</span>
+                <span class="method-start">94582 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutFromApplication([TestResult name=verifyUrlOfReport status=SUCCESS method=ReportDashBoardClassNG.verifyUrlOfReport()[...)</span>
+                <span class="method-start">95111 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">logInTheApplication</span>
+                <span class="method-start">97475 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testUserList</span>
+                <span class="method-start">99261 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickONReportIcon</span>
+                <span class="method-start">101100 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutApplication([TestResult name=testUserList status=SUCCESS method=TestClassNG.testUserList()[pri:0, instance:tests...)</span>
+                <span class="method-start">105355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testLoginPage</span>
+                <span class="method-start">108991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testReportDashBoard</span>
+                <span class="method-start">112841 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutFromApplication([TestResult name=clickONReportIcon status=FAILURE method=ReportDashBoardClassNG.clickONReportIcon()[...)</span>
+                <span class="method-start">120986 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">deleteObject</span>
+                <span class="method-start">122537 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutApplication([TestResult name=testReportDashBoard status=SUCCESS method=TestClassNG.testReportDashBoard()[pri:1, ...)</span>
+                <span class="method-start">123960 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">deleteObject</span>
+                <span class="method-start">127492 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeTheBrowser</span>
+                <span class="method-start">127493 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">128138 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchTheBrowser(Edge)</span>
+                <span class="method-start">128637 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser(Edge)</span>
+                <span class="method-start">131076 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">createObject</span>
+                <span class="method-start">134510 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createObject</span>
+                <span class="method-start">134511 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testLoginPage</span>
+                <span class="method-start">134512 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">logInTheApplication</span>
+                <span class="method-start">134513 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTaskList</span>
+                <span class="method-start">145756 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyUrlOfReport</span>
+                <span class="method-start">145815 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutApplication([TestResult name=testTaskList status=SUCCESS method=TestClassNG.testTaskList()[pri:0, instance:tests...)</span>
+                <span class="method-start">154355 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutFromApplication([TestResult name=verifyUrlOfReport status=SUCCESS method=ReportDashBoardClassNG.verifyUrlOfReport()[...)</span>
+                <span class="method-start">156759 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testLoginPage</span>
+                <span class="method-start">157791 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">logInTheApplication</span>
+                <span class="method-start">158557 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testUserList</span>
+                <span class="method-start">161190 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickONReportIcon</span>
+                <span class="method-start">161873 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutApplication([TestResult name=testUserList status=SUCCESS method=TestClassNG.testUserList()[pri:0, instance:tests...)</span>
+                <span class="method-start">168719 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testLoginPage</span>
+                <span class="method-start">172113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testReportDashBoard</span>
+                <span class="method-start">175151 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutFromApplication([TestResult name=clickONReportIcon status=FAILURE method=ReportDashBoardClassNG.clickONReportIcon()[...)</span>
+                <span class="method-start">182024 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">deleteObject</span>
+                <span class="method-start">183700 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutApplication([TestResult name=testReportDashBoard status=SUCCESS method=TestClassNG.testReportDashBoard()[pri:1, ...)</span>
+                <span class="method-start">185792 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">deleteObject</span>
+                <span class="method-start">189262 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ReportDashBoardClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeTheBrowser</span>
+                <span class="method-start">189270 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestClassNG</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">189649 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
